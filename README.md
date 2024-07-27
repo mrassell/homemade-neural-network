@@ -2,8 +2,9 @@
 
 **This project implements a neural network from scratch (No TensorFlow or Pytorch) using NumPy to classify handwritten digits from the MNIST dataset.**
 
-Credit goes to Samson Zhang's YouTube Video "Building a neural network FROM SCRATCH" which taught me the linear algebra. I included my notes in a Notion doc below
-[https://ordinary-health-cab.notion.site/Image-Classification-Neural-Network-FROM-SCRATCH-72aa4de370f54d5d8a30dd50da0a92f3](url)
+Credit goes to Samson Zhang's YouTube Video "Building a neural network FROM SCRATCH" which taught me the linear algebra. I included my notes in a Notion doc below:
+https://ordinary-health-cab.notion.site/Image-Classification-Neural-Network-FROM-SCRATCH-72aa4de370f54d5d8a30dd50da0a92f3
+
 
 ## Prerequisites
 
