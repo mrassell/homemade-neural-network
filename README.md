@@ -1,8 +1,8 @@
 # Handwritten Digit Classification Neural Network
 
-This project implements a neural network from scratch (No TensorFlow or Pytorch) using NumPy to classify handwritten digits from the MNIST dataset.
+**This project implements a neural network from scratch (No TensorFlow or Pytorch) using NumPy to classify handwritten digits from the MNIST dataset.**
 
-**Credit goes to Samson Zhang's YouTube Video "Building a neural network FROM SCRATCH" which taught me the linear algebra** 
+Credit goes to Samson Zhang's YouTube Video "Building a neural network FROM SCRATCH" which taught me the linear algebra 
 (I included my notes in a Notion doc below)
 
 ## Prerequisites
