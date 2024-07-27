@@ -45,9 +45,12 @@ The script will:
 ## Understanding the Code
 
 The neural network consists of:
-- Input layer: 784 nodes (28x28 pixel images)
+- The training set: teaches the model
+- The development set: evaluate model's performace on unseen data (Separate from teaching, detects overfitting, 
+  or if the model performs well on training data but poorly on dev data)
+- Input layer: 784 nodes (28x28 pixel images) 
 - Hidden layer: 10 nodes with ReLU activation
-- Output layer: 10 nodes with Softmax activation
+- Output layer: 10 nodes with Softmax activation, converting output layer into probabilities
 
 Key functions:
 - `init_params()`: Initialize weights and biases
