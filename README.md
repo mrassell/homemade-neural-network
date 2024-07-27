@@ -64,7 +64,7 @@ You can modify the following parameters in the `gradient_descent()` function cal
 ## Results
 
 The script will display the model's accuracy during training and show predictions for a few sample images.
-The average accuracy I achieved through multiple trials was 85%.
+The average accuracy I achieved through multiple trials of 500 iterations was 85%.
 
 ## Note
 
