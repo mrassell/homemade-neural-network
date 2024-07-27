@@ -49,9 +49,13 @@ The neural network consists of:
 - The development set: evaluate model's performace on unseen data (Separate from teaching, detects overfitting, 
   or if the model performs well on training data but poorly on dev data)
 - Input layer: 784 nodes (28x28 pixel images) 
-- Hidden layer: 10 nodes with ReLU activation, without this we would just be calculating linear combinations (we 
-  don't want just a fancy linear regression) 
+- Hidden layer: 10 nodes with ReLU activation, without this we would just be calculating linear combinations and we want more than just a fancy linear regression 
 - Output layer: 10 nodes with Softmax activation, converting output layer into probabilities
+  
+Method: **Forward propagation** will apply weights and biases to make predictions, but we need to run an algorithm to optimize weights and biases with **back propagation**. 
+
+Essentially starting with our prediction and finding out by how much it deviates from our actual label, we see how much each of those weights and biases contributed to that error.
+We take our predictions and subtract the actual label and one-hot encode the label so that it is in a binary vector format that is compatible with neural network outputs because they have multiple classes and we do not want to create false ordinal relationships between classes.
 
 Key functions:
 - `init_params()`: Initialize weights and biases
