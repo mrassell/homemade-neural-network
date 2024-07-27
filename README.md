@@ -49,7 +49,8 @@ The neural network consists of:
 - The development set: evaluate model's performace on unseen data (Separate from teaching, detects overfitting, 
   or if the model performs well on training data but poorly on dev data)
 - Input layer: 784 nodes (28x28 pixel images) 
-- Hidden layer: 10 nodes with ReLU activation
+- Hidden layer: 10 nodes with ReLU activation, without this we would just be calculating linear combinations (we 
+  don't want just a fancy linear regression) 
 - Output layer: 10 nodes with Softmax activation, converting output layer into probabilities
 
 Key functions:
