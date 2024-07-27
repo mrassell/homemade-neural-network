@@ -57,6 +57,12 @@ Method: **Forward propagation** will apply weights and biases to make prediction
 Essentially starting with our prediction and finding out by how much it deviates from our actual label, we see how much each of those weights and biases contributed to that error.
 We take our predictions and subtract the actual label and one-hot encode the label so that it is in a binary vector format that is compatible with neural network outputs because they have multiple classes and we do not want to create false ordinal relationships between classes.
 
+Using derivative of loss function with respect to weights and using derivative of activation function so we can see how much we should nudge the weights and biases in the layers. 
+
+Then we update parameters accordingly with some learning rate that we set, alpha (hyperparameter).
+
+Once we update parameters, we iterate through the entire propagation and adjusting process again.
+
 Key functions:
 - `init_params()`: Initialize weights and biases
 - `forward_prop()`: Perform forward propagation
