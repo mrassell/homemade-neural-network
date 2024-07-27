@@ -61,6 +61,15 @@ You can modify the following parameters in the `gradient_descent()` function cal
 - Learning rate (currently 0.10)
 - Number of iterations (currently 500)
 
+Also feel free to change the first parameter of the test predictions at the bottom to test different images of handwritten digits
+```
+test_prediction(0, W1, b1, W2, b2)
+test_prediction(1, W1, b1, W2, b2)
+test_prediction(2, W1, b1, W2, b2)
+test_prediction(230, W1, b1, W2, b2)
+
+```
+
 ## Results
 
 The script will display the model's accuracy during training and show predictions for a few sample images.
