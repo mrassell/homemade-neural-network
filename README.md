@@ -61,7 +61,7 @@ Using derivative of loss function with respect to weights and using derivative o
 
 Then we update parameters accordingly with some learning rate that we set, alpha (hyperparameter).
 
-Once we update parameters, we iterate through the entire propagation and adjusting process again.
+Gradient descent: Once we update parameters, we iterate through the entire propagation and adjusting process again.
 
 Key functions:
 - `init_params()`: Initialize weights and biases
