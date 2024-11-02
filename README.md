@@ -35,7 +35,7 @@ pip install numpy pandas matplotlib
 
 Execute the script:
 ```
-python digit_classification.py
+python NeuralNetwork.py
 ```
 The script will:
 1. Load and preprocess the MNIST data
