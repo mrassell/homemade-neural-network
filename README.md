@@ -16,7 +16,7 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
 ``` 
-git clone https://github.com/mrassell/handwritten-digit-classification.git
+git clone https://github.com/mrassell/homemade-neural-network.git
 cd handwritten-digit-classification
 ```
 2. Install the required libraries:
