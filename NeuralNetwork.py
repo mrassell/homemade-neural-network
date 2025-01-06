@@ -22,7 +22,7 @@ Y_dev = data_dev[0]
 X_dev = data_dev[1:n]
 X_dev = X_dev / 255.
 
-# weights and biases for both layers of network
+# weights and biases for both layers of network, random breaks symmetry 
 def init_params():
     W1 = np.random.rand(10, 784) - 0.5
     b1 = np.random.rand(10, 1) - 0.5
