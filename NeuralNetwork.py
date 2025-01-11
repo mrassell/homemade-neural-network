@@ -52,6 +52,7 @@ def forward_prop(W1, b1, W2, b2, X):
 def ReLU_deriv(Z):
     return Z > 0
 
+# One-hot encoding - prepares true labels for comparisons with predictions
 def one_hot(Y):
     one_hot_Y = np.zeros((Y.size, Y.max() + 1))
     one_hot_Y[np.arange(Y.size), Y] = 1
