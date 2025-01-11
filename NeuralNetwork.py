@@ -82,7 +82,8 @@ def update_params(W1, b1, W2, b2, dW1, db1, dW2, db2, alpha):
 # convert output probabilities into class predictions
 def get_predictions(A2):
     return np.argmax(A2, axis=0)
-
+    
+# accuracy
 def get_accuracy(predictions, Y):
     return np.sum(predictions == Y) / Y.size
 
