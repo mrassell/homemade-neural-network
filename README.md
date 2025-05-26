@@ -1,4 +1,4 @@
-#  Digit Classification Neural Network
+# Handwritten Digit Classification Neural Network
 
 **This project implements a neural network from scratch (No TensorFlow or Pytorch) using NumPy to classify handwritten digits from the MNIST dataset.**
 
