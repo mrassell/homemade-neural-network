@@ -8,7 +8,7 @@ https://ordinary-health-cab.notion.site/Image-Classification-Neural-Network-FROM
 
 ## Prerequisites
 
-Before you begin, ensure you have the following instaled:
+Before you begin, ensure you have the following installed:
 - Python 3.x
 - pip (Python package installer)
 
